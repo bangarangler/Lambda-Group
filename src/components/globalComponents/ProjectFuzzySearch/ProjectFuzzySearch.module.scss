@@ -39,18 +39,18 @@ body {
 }
 
 .headerTitle {
-text-align: center;
-font-weight: bold;
-text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
 }
 
 .contentContainer {
-padding: 5%;
+  padding: 5%;
 }
 
 .description {
-font-size: 1.2rem;
-min-height: 115px;
+  font-size: 1.2rem;
+  min-height: 115px;
 }
 
 .descriptionText {
@@ -91,7 +91,7 @@ min-height: 115px;
 .cardMember {
   display: inline-block;
   padding: 5px;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .filter {
@@ -102,13 +102,13 @@ min-height: 115px;
 }
 
 .displayContainer {
-  /*border: 2px solid blue;*/
-  display: flex;
-  /*flex-direction: column;*/
+  // display: flex;
+  // flex-direction: row;
   width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  /* margin: 2% auto; */
+  padding: 40px !important;
+  .input {
+    width: 100% !important;
+  }
 }
 
 .csv-reader-input {
@@ -142,4 +142,3 @@ min-height: 115px;
 .logoutButton {
   margin: 8% auto;
 }
-

@@ -1,0 +1,63 @@
+/* .overlordTabs-div {
+  background-color: green;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+} */
+
+/* .overlordTab-button {
+  padding: 20px;
+  text-align: center;
+  flex-grow: 1;
+  font-size: 2rem;
+  background-color: rgb(226, 57, 76);
+  color: white;
+  z-index: 1;
+  box-shadow: inset 2px 0px 2px #323232;
+} */
+
+/* .activeTab { */
+/* background-color: rgb(186, 17, 46);
+  background-color: rgb(186, 17, 46);
+  z-index: 100;
+  color: white;
+  box-shadow: 2px 0px 2px #323232;
+} */
+
+.tab > div:first-child {
+  margin-left: 40px !important;
+}
+
+/* rgb(197,36,36) | Lambda's color rgb(186,17,46) */
+.ui.inverted.red.menu .active.item {
+  background-color: rgb(186, 17, 46) !important;
+  border: 1px solid rgb(186, 17, 46);
+  border-radius: 3px 0 0 3px;
+}
+
+/* rgb(219,40,40) | Lambda's Secondary rgb(204, 19, 57 ) */
+.ui.inverted.menu .item,
+.ui.inverted.menu .item > a:not(.ui) {
+  background-color: white;
+  color: #ba112e;
+  font-weight: bold;
+  border-radius: 0px 3px 3px 0px;
+  border: 1px solid #ba112e;
+}
+
+.ui.inverted.menu .item:hover,
+.ui.inverted.menu .item:hover > a:not(.ui) {
+  background-color: rgb(214, 21, 66) !important;
+  /* color: white; */
+  font-weight: bold;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.custom {
+  background-color: green !important;
+}
+
+.ui.inverted.red.menu {
+  max-width: max-content;
+}

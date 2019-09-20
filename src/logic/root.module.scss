@@ -1,0 +1,26 @@
+.toastContainer {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.toast {
+  background-color: white;
+  color: #ba112e;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px black;
+  width: max-content;
+  button {
+    color: #ba112e;
+  }
+}
+
+.toastProgress {
+  background: #ba112e;
+}
+
+// .toastBody {
+//   color: #ba112e;
+//   background-color: black;
+// }

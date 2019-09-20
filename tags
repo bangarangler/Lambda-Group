@@ -1,0 +1,239 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddLinkToBuildWeek	src/components/admin/BuildWeeksList/CopyLink.js	/^  async function AddLinkToBuildWeek() {$/;"	f
+AdminFunc	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^      \/\/ triggerAdminFunc={triggerAdminFunc}$/;"	c
+AdminProjectView	src/components/admin/AdminDashboard/AdminProjectView/AdminProjectView.js	/^const AdminProjectView = ({ project: { project }, setProjectModalData }) => {$/;"	c
+AdminView	src/components/Auth/OldRegister.js	/^  const registerAdminView = ($/;"	c
+Admins	src/DisplayAllAdmins.js	/^  const fetchAdmins = async () => {$/;"	c
+Admins	src/components/admin/AdminDashboard/DisplayAllAdmins/DisplayAllAdmins.js	/^  const fetchAdmins = async () => {$/;"	c
+App	src/components/App.js	/^const App = () => {$/;"	c
+AreaRef	src/components/admin/BuildWeeksList/CopyLink.js	/^  const textAreaRef = useRef(null);$/;"	c
+BackEndDeveloper	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      webBackEndDeveloper: { names: [] },$/;"	c
+BuildWeekContext	src/context/allContexts/BuildWeekContext.js	/^export const BuildWeekContext = createContext();$/;"	c
+BuildWeekContext	src/context/allContexts/BuildWeekContext.js	/^export const BuildWeekContext = createContext();$/;"	v
+BuildWeekProjects	src/context/allContexts/BuildWeekContext.js	/^  const fetchBuildWeekProjects = async (buildWeek, projectsContext) => {$/;"	c
+BuildWeekProvider	src/context/allContexts/BuildWeekContext.js	/^export function BuildWeekProvider(props) {$/;"	f
+BuildWeeks	src/components/admin/BuildWeeksList/BuildWeeksList.js	/^  const fetchBuildWeeks = async () => {$/;"	c
+CSV	src/components/admin/BuildWeeksList/ExportCSV.js	/^  \/\/const exportCSV = () => {$/;"	c
+CSVreader	src/components/CSV.js	/^const CSVreader = () => {$/;"	c
+Change	src/components/Auth/Login.js	/^            onChange={event => setEmail(event.target.value)}$/;"	c
+Change	src/components/Auth/Login.js	/^            onChange={event => setPassword(event.target.value)}$/;"	c
+Change	src/components/Auth/OldLogin.js	/^                        onChange={event => setEmail(event.target.value)}$/;"	c
+Change	src/components/Auth/OldLogin.js	/^                        onChange={event => setPassword(event.target.value)}$/;"	c
+Change	src/components/Auth/OldRegister.js	/^              onChange={event => setAdminEmail(event.target.value)}$/;"	c
+Change	src/components/Auth/OldRegister.js	/^              onChange={event => setAdminPassword(event.target.value)}$/;"	c
+Change	src/components/Auth/OldRegister.js	/^              onChange={event => setEmail(event.target.value)}$/;"	c
+Change	src/components/Auth/OldRegister.js	/^              onChange={event => setName(event.target.value)}$/;"	c
+Change	src/components/Auth/OldRegister.js	/^              onChange={event => setPassword(event.target.value)}$/;"	c
+Change	src/components/Auth/OldRegister.js	/^          onChange={event => setAdminEmail(event.target.value)}$/;"	c
+Change	src/components/Auth/OldRegister.js	/^          onChange={event => setAdminName(event.target.value)}$/;"	c
+Change	src/components/Auth/OldRegister.js	/^          onChange={event => setAdminPassword(event.target.value)}$/;"	c
+Change	src/components/Auth/Register.js	/^          onChange={event => setDisplayName(event.target.value)}$/;"	c
+Change	src/components/Auth/Register.js	/^          onChange={event => setEmail(event.target.value)}$/;"	c
+Change	src/components/Auth/Register.js	/^          onChange={event => setPassword(event.target.value)}$/;"	c
+Change	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^            onChange={handleChange}$/;"	c
+Change	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^          onChange={e => searchStudents(students, e)}$/;"	c
+Change	src/components/admin/AdminDashboard/AdminDashboard.js	/^          onChange={e => handleFuzzySearch(e)}$/;"	c
+Change	src/components/students/StudentDashBoard/StudentBuildWeekView.js	/^          onChange={e => handleFuzzySearch(e)}$/;"	c
+Class	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^            cssClass={`csv-reader-input ${styles.csvReaderInput}`}$/;"	c
+ClassName	src/logic/Root.js	/^        bodyClassName={styles.toastBody}$/;"	c
+ClassName	src/logic/Root.js	/^        progressClassName={styles.toastProgress}$/;"	c
+ClassName	src/logic/Root.js	/^        toastClassName={styles.toast}$/;"	c
+Click	src/Dashboard/DisplayInfo.js	/^              onClick={deleteCollection}$/;"	c
+Click	src/components/Auth/OldRegister.js	/^        onClick={() => setAdmin(!admin)}$/;"	c
+Click	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^                    onClick={() => makeOverloard(s, "minion")}$/;"	c
+Click	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^                    onClick={() => makeOverloard(s, "overlord")}$/;"	c
+Click	src/components/admin/AdminDashboard/AdminProjectView/AdminProjectView.js	/^      onClick={() => setProjectModalData(project)}$/;"	c
+Click	src/components/admin/AdminDashboard/DisplayAllAdmins/DisplayAllAdmins.js	/^                    <Button onClick={() => removeAdmin(m)} color="red">$/;"	c
+Click	src/components/admin/AdminDashboard/DisplayAllAdmins/DisplayAllAdmins.js	/^                    <Button onClick={() => removeAdmin(o)} color="red">$/;"	c
+Click	src/components/admin/AdminDashboard/DisplayAllAdmins/DisplayAllAdmins.js	/^                    <Button onClick={() => updatePermissions(m)} color="blue">$/;"	c
+Click	src/components/admin/AdminDashboard/DisplayAllAdmins/DisplayAllAdmins.js	/^                    <Button onClick={() => updatePermissions(o)} color="blue">$/;"	c
+Click	src/components/admin/BuildWeeksList/BuildWeeksList.js	/^                        onClick={() => goToBuildWeekView(buildWeek)}$/;"	c
+Click	src/components/admin/BuildWeeksList/BuildWeeksList.js	/^                        onClick={() => removeBuildWeek(buildWeek)}$/;"	c
+Click	src/components/admin/BuildWeeksList/BuildWeeksList.js	/^                    onClick={() => goToBuildWeekView(buildWeek)}$/;"	c
+Click	src/components/admin/BuildWeeksList/CopyLink.js	/^          onClick={copyToClipboard}$/;"	c
+Click	src/components/admin/BuildWeeksList/ExportCSV.js	/^      \/\/onClick={() => exportCSV()}$/;"	c
+Click	src/components/globalComponents/DashBoardHeader.js	/^        onClick={signOut}$/;"	c
+Click	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^                                      onClick={() =>$/;"	c
+Click	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^                                  onClick={() => handleAddRole(allRoles)}$/;"	c
+Click	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^                                  onClick={() => handleSubtractRole(allRoles)}$/;"	c
+Click	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^            onClick={e => handleJoinProject(projectModalData, e)}$/;"	c
+Click	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^        <Button onClick={() => setProjectModalData(null)} color="red">$/;"	c
+Click	src/components/students/SelectProjectRole/SelectProjectRole.js	/^              onClick={() => {$/;"	c
+Click	src/components/students/SelectProjectRole/SelectProjectRole.js	/^            onClick={() => {$/;"	c
+Click	src/components/students/SelectProjectRole/SelectProjectRole.js	/^        onClick={() => setCurrentBuildWeekURL(null)}$/;"	c
+Click	src/components/students/StudentDashBoard/BuildWeekSelection/BuildWeekSelection.js	/^                onClick={() => handleBuildWeekSelection(hack)}$/;"	c
+Click	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^              onClick={e => handleJoinProject(project, e)}$/;"	c
+Click	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^      onClick={() => setProjectModalData(project)}$/;"	c
+Close	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^      onClose={() => setProjectModalData(null)}$/;"	c
+Collection	src/Dashboard/DisplayInfo.js	/^  const deleteCollection = () => {$/;"	c
+Config	firebase.js	/^\/\/ var firebaseConfig = {$/;"	c
+Config	firebase.js	/^const firebaseConfig = {$/;"	c
+Config	src/logic/firebase.js	/^\/\/ var firebaseConfig = {$/;"	c
+Config	src/logic/firebase.js	/^const firebaseConfig = {$/;"	c
+ContextProvider	src/context/providerComposer.js	/^function ContextProvider({ children }) {$/;"	f
+CurrentLoadingBuildWeek	src/components/admin/AdminDashboard/OverloardMainDashBoard.js	/^            setCurrentLoadingBuildWeek={setCurrentLoadingBuildWeek}$/;"	c
+Data	src/DisplayAllAdmins.js	/^          const adminData = {$/;"	c
+Data	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^          const studentData = {$/;"	c
+Developer	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      androidDeveloper: { names: [] },$/;"	c
+Developer	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      iosDeveloper: { names: [] },$/;"	c
+DisplayAllAdmins	src/DisplayAllAdmins.js	/^const DisplayAllAdmins = ({triggerAdminFunc}) => {$/;"	c
+DisplayAllAdmins	src/components/admin/AdminDashboard/DisplayAllAdmins/DisplayAllAdmins.js	/^\/\/ const DisplayAllAdmins = ({ triggerAdminFunc, setTriggerAdminFunc }) => {$/;"	c
+DisplayAllAdmins	src/components/admin/AdminDashboard/DisplayAllAdmins/DisplayAllAdmins.js	/^const DisplayAllAdmins = () => {$/;"	c
+EndDeveloper	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      frontEndDeveloper: { names: [] },$/;"	c
+EndFrameWorkDeveloper	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      frontEndFrameWorkDeveloper: { names: [] },$/;"	c
+Engineer	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      dataEngineer: { names: [] },$/;"	c
+Enumeration	src/logic/privileges.js	/^class Enumeration {$/;"	c
+ExportCSV	src/components/admin/BuildWeeksList/ExportCSV.js	/^const ExportCSV = ({ buildWeek }) => {$/;"	c
+FileLoaded	src/Dashboard/DisplayInfo.js	/^            onFileLoaded={handleForce}$/;"	c
+FileLoaded	src/Dashboard/DisplayInfo.js	/^\/\/                 onFileLoaded={handleForce}$/;"	c
+FileLoaded	src/components/CSV.js	/^            onFileLoaded={handleForce}$/;"	c
+FileLoaded	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^            onFileLoaded={data => setCSVData(data)}$/;"	c
+JoinProject	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^  const handleJoinProject = async (project, e) => {$/;"	c
+Lead	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      projectLead: { names: [] },$/;"	c
+LearningEngineer	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      machineLearningEngineer: { names: [] },$/;"	c
+LoadingBuildWeek	src/components/admin/AdminDashboard/OverloardMainDashBoard.js	/^            currentLoadingBuildWeek={currentLoadingBuildWeek}$/;"	c
+Localhost	src/serviceWorker.js	/^const isLocalhost = Boolean($/;"	c
+Login	src/components/Auth/Login.js	/^const Login = ({ history }) => {$/;"	c
+Login	src/components/Auth/OldLogin.js	/^const Login = ({ history }) => {$/;"	c
+MapLegend	src/components/globalComponents/MapLegend/MapLegend.js	/^const MapLegend = () => {$/;"	c
+ModalData	src/components/admin/AdminDashboard/AdminDashboard.js	/^          projectModalData={projectModalData}$/;"	c
+ModalData	src/components/students/StudentDashBoard/StudentBuildWeekView.js	/^          projectModalData={projectModalData}$/;"	c
+Name	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^        <Button type="submit" color="green" className={styles.button}>$/;"	c
+Name	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^        <Form.Field className={styles.formFields}>$/;"	c
+Name	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^      <Form className={styles.csvForm} onSubmit={e => addBuildWeek(e)}>$/;"	c
+Name	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^                    className={styles.makeMinion}$/;"	c
+Name	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^                    className={styles.makeOverlord}$/;"	c
+Name	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^                <div className={(styles.split, styles.left)}>$/;"	c
+Name	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^                <div className={styles.split}>$/;"	c
+Name	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^              <div key={s.email} className={styles.studentBar}>$/;"	c
+Name	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^      <div className={styles.students}>$/;"	c
+Name	src/components/admin/AdminDashboard/AdminDashboard.js	/^      <div className={styles.displayContainer}>$/;"	c
+Name	src/components/admin/AdminDashboard/AdminProjectView/AdminProjectView.js	/^                  <span className={dotStyles.span} key={student.email}>$/;"	c
+Name	src/components/admin/AdminDashboard/AdminProjectView/AdminProjectView.js	/^                  className={dotStyles.teamMemberDiv}$/;"	c
+Name	src/components/admin/AdminDashboard/AdminProjectView/AdminProjectView.js	/^          className={styles.cardHeader}$/;"	c
+Name	src/components/admin/AdminDashboard/AdminProjectView/AdminProjectView.js	/^        <div className={dotStyles.dotContainer}>$/;"	c
+Name	src/components/admin/BuildWeeksList/BuildWeeksList.js	/^                      <Button.Or className={styles.or} \/>$/;"	c
+Name	src/components/globalComponents/MapLegend/MapLegend.js	/^              className={styles.dot}$/;"	c
+Name	src/components/globalComponents/MapLegend/MapLegend.js	/^            <h3 className={styles.role}>{single.title}<\/h3>$/;"	c
+Name	src/components/globalComponents/MapLegend/MapLegend.js	/^          <div className={styles.single} key={single.title}>$/;"	c
+Name	src/components/globalComponents/MapLegend/MapLegend.js	/^      <div className={styles.mapTitle}>Role Legend<\/div>$/;"	c
+Name	src/components/globalComponents/MapLegend/MapLegend.js	/^      <div className={styles.singleContainer}>$/;"	c
+Name	src/components/globalComponents/MapLegend/MapLegend.js	/^    <div className={styles.legendContainer}>$/;"	c
+Name	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^                                  className={styles.icon}$/;"	c
+Name	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^            <div className={styles.modalTeamMembers}>$/;"	c
+Name	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^            {\/* <div className={styles.modalMainBody}> *\/}$/;"	c
+Name	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^        className={styles.modalSignup}$/;"	c
+Name	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^        className={styles.modalTitle}$/;"	c
+Name	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^      \/\/ className={styles.modalContainer}$/;"	c
+Name	src/components/globalComponents/Spinner/LocalSpinner.js	/^      <div className={styles.loader}> <\/div>$/;"	c
+Name	src/components/globalComponents/Spinner/LocalSpinner.js	/^    <div className={styles.loaderContainer}>$/;"	c
+Name	src/components/globalComponents/Spinner/Spinner.js	/^      <div className={styles.loader}> <\/div>$/;"	c
+Name	src/components/globalComponents/Spinner/Spinner.js	/^    <div className={styles.loaderContainer}>$/;"	c
+Name	src/components/students/SelectProjectRole/SelectProjectRole.js	/^              className={styles.role}$/;"	c
+Name	src/components/students/SelectProjectRole/SelectProjectRole.js	/^            className={styles.confirm}$/;"	c
+Name	src/components/students/SelectProjectRole/SelectProjectRole.js	/^            className={styles.nevermind}$/;"	c
+Name	src/components/students/SelectProjectRole/SelectProjectRole.js	/^          <h3 className={styles.modalHeader}>$/;"	c
+Name	src/components/students/SelectProjectRole/SelectProjectRole.js	/^        <Modal.Content className={styles.modalButtonDiv}>$/;"	c
+Name	src/components/students/SelectProjectRole/SelectProjectRole.js	/^        className={styles.back}$/;"	c
+Name	src/components/students/SelectProjectRole/SelectProjectRole.js	/^      <div className={styles.selectContainer}>$/;"	c
+Name	src/components/students/StudentDashBoard/BuildWeekSelection/BuildWeekSelection.js	/^                className={styles.buildWeek}$/;"	c
+Name	src/components/students/StudentDashBoard/BuildWeekSelection/BuildWeekSelection.js	/^      <Header className={styles.header} as="h2">$/;"	c
+Name	src/components/students/StudentDashBoard/BuildWeekSelection/BuildWeekSelection.js	/^      <div className={styles.selectContainer}>$/;"	c
+Name	src/components/students/StudentDashBoard/StudentBuildWeekView.js	/^      <div className={styles.displayContainer}>$/;"	c
+Name	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^                  <span className={styles.span} key={student.email}>$/;"	c
+Name	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^                  className={styles.teamMemberDiv}$/;"	c
+Name	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^          <p className={styles.productType}>{project.productType}<\/p>$/;"	c
+Name	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^        <div className={styles.dotContainer}>$/;"	c
+Name	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^        className={styles.cardHeader}$/;"	c
+Name	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^      <Card.Content className={styles.team}>$/;"	c
+Name	src/logic/Root.js	/^        className={styles.toastContainer}$/;"	c
+Out	src/components/globalComponents/DashBoardHeader.js	/^  const signOut = () => {$/;"	c
+Overloard	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^  const makeOverloard = (s, role) => {$/;"	c
+ProjectModalData	src/components/admin/AdminDashboard/AdminDashboard.js	/^                setProjectModalData={setProjectModalData}$/;"	c
+ProjectModalData	src/components/admin/AdminDashboard/AdminDashboard.js	/^          setProjectModalData={setProjectModalData}$/;"	c
+ProjectModalData	src/components/students/StudentDashBoard/StudentBuildWeekView.js	/^                setProjectModalData={setProjectModalData}$/;"	c
+ProjectModalData	src/components/students/StudentDashBoard/StudentBuildWeekView.js	/^          setProjectModalData={setProjectModalData}$/;"	c
+ProjectRoleToFirestore	src/components/students/SelectProjectRole/SelectProjectRole.js	/^  const addProjectRoleToFirestore = async (projectRole, confirm) => {$/;"	c
+ProjectViewModal	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^const ProjectViewModal = ({ projectModalData, setProjectModalData }) => {$/;"	c
+Projects	src/Dashboard/DisplayInfo.js	/^  const getProjects = () => {$/;"	c
+Projects	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^  const convertedProjects = async () => {$/;"	c
+Projects	src/components/admin/AdminDashboard/AdminDashboard.js	/^  const fetchProjects = async () => {$/;"	c
+Projects	src/components/students/StudentDashBoard/StudentBuildWeekView.js	/^  const fetchProjects = async () => {$/;"	c
+ProviderComposer	src/context/providerComposer.js	/^function ProviderComposer({ contexts, children }) {$/;"	f
+Register	src/components/Auth/OldRegister.js	/^const Register = ({ history }) => {$/;"	c
+Register	src/components/Auth/Register.js	/^const Register = ({ history }) => {$/;"	c
+RemoveStudent	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^  const handleRemoveStudent = async (email, studentRole, namesList) => {$/;"	c
+Resources	src/customHooks/useFetch.js	/^  const fetchResources = () => {$/;"	c
+Results	src/components/admin/AdminDashboard/AdminDashboard.js	/^    let searchResults = fuzzySearch($/;"	c
+Results	src/components/students/StudentDashBoard/StudentBuildWeekView.js	/^    let searchResults = fuzzySearch($/;"	c
+Roles	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                    availableRoles: {$/;"	c
+Roles	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^            availableRoles: {$/;"	c
+Roles	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^          availableRoles: {$/;"	c
+Roles	src/components/students/SelectProjectRole/SelectProjectRole.js	/^              availableRoles: {$/;"	c
+Roles	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^            availableRoles: {$/;"	c
+Scene	src/components/Auth/LoginAnimation.js	/^class Scene extends Component {$/;"	c
+SelectProjectRole	src/components/students/SelectProjectRole/SelectProjectRole.js	/^const SelectProjectRole = ({ history }) => {$/;"	c
+SpinnerContext	src/context/allContexts/SpinnerContext.js	/^export const SpinnerContext = createContext();$/;"	c
+SpinnerContext	src/context/allContexts/SpinnerContext.js	/^export const SpinnerContext = createContext();$/;"	v
+SpinnerProvider	src/context/allContexts/SpinnerContext.js	/^export function SpinnerProvider(props) {$/;"	f
+StatisticExampleValueShorthand	src/Dashboard/DisplayInfo.js	/^\/\/ const StatisticExampleValueShorthand = ({handleForce, projects}) => {$/;"	c
+StatisticExampleValueShorthand	src/Dashboard/DisplayInfo.js	/^const StatisticExampleValueShorthand = ({handleForce, user}) => {$/;"	c
+StudentProjectView	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^const StudentProjectView = ({ project: { project }, setProjectModalData }) => {$/;"	c
+StudentRole	src/components/students/StudentDashBoard/StudentBuildWeekView.js	/^  const getStudentRole = async () => {$/;"	c
+StudentView	src/components/Auth/Register.js	/^  const registerStudentView = ($/;"	c
+Students	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^  const fetchStudents = async () => {$/;"	c
+Students	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^  const searchStudents = (studentArr, e) => {$/;"	c
+Style	src/Dashboard/DisplayInfo.js	/^            inputStyle={{color: 'red'}}$/;"	c
+Style	src/Dashboard/DisplayInfo.js	/^\/\/                 inputStyle={{ color: "red" }}$/;"	c
+Style	src/components/CSV.js	/^            inputStyle={{ color: "red" }}$/;"	c
+Submit	src/components/Auth/Login.js	/^        <Form onSubmit={e => login(e)}>$/;"	c
+Submit	src/components/Auth/OldLogin.js	/^                <Form onSubmit={login}>$/;"	c
+Submit	src/components/Auth/OldRegister.js	/^      <Form onSubmit={registerAdmin}>$/;"	c
+Submit	src/components/Auth/OldRegister.js	/^      <Form onSubmit={register}>$/;"	c
+Submit	src/components/Auth/Register.js	/^      <Form onSubmit={registerStudent}>$/;"	c
+To_ProjContext	src/context/allContexts/BuildWeekContext.js	/^  const refTo_ProjContext = useRef();$/;"	c
+To_minions	src/components/admin/AdminDashboard/DisplayAllAdmins/DisplayAllAdmins.js	/^  const refTo_minions = useRef();$/;"	c
+To_overlords	src/components/admin/AdminDashboard/DisplayAllAdmins/DisplayAllAdmins.js	/^  const refTo_overlords = useRef();$/;"	c
+Toggle	src/customHooks/useToggle.js	/^const useToggle = (initialVal = false) => {$/;"	c
+TriggerAdminFunc	src/components/admin/AdminDashboard/AddMinion/AddMinion.js	/^      \/\/ setTriggerAdminFunc={setTriggerAdminFunc}$/;"	c
+UiDeveloper	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      webUiDeveloper: { names: [] }$/;"	c
+Update	src/components/admin/AdminDashboard/OverloardMainDashBoard.js	/^            setUpdate={setUpdate}$/;"	c
+User	src/components/Auth/OldRegister.js	/^        console.log(`createdUser : ${createdUser}`);$/;"	c
+User	src/components/Auth/Register.js	/^        console.log(`createdUser : ${createdUser}`);$/;"	c
+UserContext	src/context/allContexts/UserContext.js	/^export const UserContext = createContext();$/;"	c
+UserContext	src/context/allContexts/UserContext.js	/^export const UserContext = createContext();$/;"	v
+UserProvider	src/context/allContexts/UserContext.js	/^export function UserProvider(props) {$/;"	f
+Users	src/Dashboard/DisplayInfo.js	/^  const getUsers = () => {$/;"	c
+View	src/components/Auth/OldRegister.js	/^  const registerView = ($/;"	c
+Week	src/components/admin/BuildWeeksList/BuildWeeksList.js	/^                      <CopyLink buildWeek={buildWeek} \/>$/;"	c
+Week	src/logic/Root.js	/^      buildWeek = formatLinksName(buildWeek);$/;"	c
+Weeks	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^          buildWeeks: {$/;"	c
+Weeks	src/components/globalComponents/ProjectViewModal/ProjectViewModal.js	/^      buildWeeks: {$/;"	c
+Weeks	src/components/students/SelectProjectRole/SelectProjectRole.js	/^        buildWeeks: {$/;"	c
+Weeks	src/components/students/StudentDashBoard/StudentProjectView/StudentProjectView.js	/^          buildWeeks: {$/;"	c
+XDesigner	src/components/admin/AdminDashboard/AddBuildWeeks/AddBuildWeeks.js	/^                      uXDesigner: { names: [] },$/;"	c
+animate	src/components/Auth/LoginAnimation.js	/^    const animate = function() {$/;"	f
+animate	src/components/Auth/LoginAnimation.js	/^    const animate = function() {$/;"	v
+appIconName	src/logic/constants.js	/^export const appIconName = "chevron up"$/;"	v
+appName	src/logic/constants.js	/^export const appName = "Lambda Group Organizer"$/;"	v
+arrNamesToString	src/components/admin/BuildWeeksList/ExportCSV.js	/^    function arrNamesToString(arr) {$/;"	f
+checkValidServiceWorker	src/serviceWorker.js	/^function checkValidServiceWorker(swUrl, config) {$/;"	f
+copyToClipboard	src/components/admin/BuildWeeksList/CopyLink.js	/^  function copyToClipboard(e) {$/;"	f
+db	firebase.js	/^export const db = firebase.firestore();$/;"	v
+db	src/logic/firebase.js	/^export const db = firebase.firestore();$/;"	v
+findProjectRoleOption	src/utils/projectRoleOptions.js	/^export function findProjectRoleOption(role) {$/;"	f
+formatLinksName	src/logic/Root.js	/^  function formatLinksName(item) {$/;"	f
+fuzzySearch	src/components/globalComponents/fuzzySearch.js	/^function fuzzySearch(list, keys, e) {$/;"	f
+goToBuildWeekView	src/components/admin/BuildWeeksList/BuildWeeksList.js	/^  function goToBuildWeekView(buildWeek) {$/;"	f
+handleFuzzySearch	src/components/admin/AdminDashboard/AdminDashboard.js	/^  function handleFuzzySearch(e) {$/;"	f
+handleFuzzySearch	src/components/students/StudentDashBoard/StudentBuildWeekView.js	/^  function handleFuzzySearch(e) {$/;"	f
+register	src/serviceWorker.js	/^export function register(config) {$/;"	f
+registerValidSW	src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	f
+removeBuildWeek	src/components/admin/BuildWeeksList/BuildWeeksList.js	/^  function removeBuildWeek(buildWeek) {$/;"	f
+unregister	src/serviceWorker.js	/^export function unregister() {$/;"	f
+useFetch	src/customHooks/useFetch.js	/^export const useFetch = resource => {$/;"	v

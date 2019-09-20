@@ -47,8 +47,8 @@ class Scene extends Component {
       requestAnimationFrame(animate);
 
       renderer.render(scene, camera);
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
+      cube.rotation.x += 0.02;
+      cube.rotation.y += 0.02;
     };
 
     animate();
@@ -60,7 +60,8 @@ class Scene extends Component {
     return false;
   }
 
-  componentWillReceiveProps(nextProps) {
+  // componentWillReceiveProps(nextProps) {
+  componentDidUpdate(nextProps) {
     if (this.props.color !== nextProps.color) {
       this.cube.material.color.setHex(nextProps.color);
     }

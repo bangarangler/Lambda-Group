@@ -1,0 +1,48 @@
+.modalHeader {
+  text-align: center;
+}
+
+.modalButtonDiv {
+  display: flex !important;
+  justify-content: flex-end !important;
+  @media (max-width: 700px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .nevermind,
+    .confirm {
+      width: 66%;
+    }
+    .confirm {
+      margin-top: 15px;
+    }
+  }
+}
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding: 10px;
+  .role {
+    padding: 15px;
+    margin: 5px;
+  }
+}
+
+.back {
+  text-align: center;
+  width: max-content;
+  color: #ba112e !important;
+  background-color: white !important;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+
+  border: 1px solid #ba112e !important;
+}

@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "lambda-group-organizer"
+    "default": "lambda-group-organizer",
+    "development": "lambda-group-organizer-d-a0b2c",
+    "development-JonP": "lambda-group-organizer"
   }
 }

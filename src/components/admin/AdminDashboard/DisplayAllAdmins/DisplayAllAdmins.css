@@ -1,0 +1,15 @@
+.allAdminsWrapper {
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.minions-container {
+  border: 1px solid purple;
+}
+
+.overlords-container {
+
+  border: 1px solid hotpink;
+}
+

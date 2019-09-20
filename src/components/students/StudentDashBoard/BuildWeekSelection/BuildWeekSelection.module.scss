@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  // flex-grow: 1;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding: 10px;
+  .buildWeek {
+    padding: 15px;
+    margin: 5px;
+    background-color: #ba112e !important;
+  }
+}

@@ -1,0 +1,78 @@
+.cardHeader,
+.team {
+  flex-grow: 0 !important;
+}
+
+.dotContainer {
+  display: flex;
+  flex-direction: row;
+
+  // Background color for dot in JSX
+  .teamMemberDiv {
+    border-radius: 50%;
+    margin: 0 2px;
+    padding: 5px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    animation-delay: 1s;
+    animation: bounceInDown 1.5s;
+    .span {
+      margin: 0 5px;
+      text-transform: capitalize;
+      color: white;
+    }
+  }
+}
+
+.productType {
+  margin: 0 !important;
+  padding: 0;
+}
+
+::after {
+  content: None !important;
+}
+
+@keyframes bounceInDown {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  40% {
+    opacity: 0;
+    transform: translate3d(0, -350px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInDown {
+  animation-name: bounceInDown;
+}

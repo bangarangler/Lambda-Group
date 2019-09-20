@@ -1,0 +1,25 @@
+.csvForm {
+  margin: 0px auto 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px !important;
+  width: max-content;
+  justify-content: space-evenly;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  h4 {
+    text-align: center;
+  }
+  .csvReaderInput {
+    // width: 100%;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .button {
+    max-width: max-content;
+    align-self: center;
+  }
+}
